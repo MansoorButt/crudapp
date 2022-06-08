@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Expense List</h1>
+      <button class="btnn-primary my-5">
+        <a class="txt-light text-decoration-none" href="user.php"> Add User</a>
+      </button>
+      <table class="tables">
+        <thead>
+          <tr>
+            <th scope="col">Serial No.</th>
+            <th scope="col">Name</th>
+            <th scope="col">Expense</th>
+            <th scope="col">Amount</th>
+            <th scope="col">Operations</th>
+          </tr>
+        </thead>
+        <tbody>
+          <?php include "view.php"; ?>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>

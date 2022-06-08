@@ -1,0 +1,70 @@
+*{
+  box-sizing: border-box;
+}
+
+/* Utilities */
+.btnn-primary{
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.25rem;
+  border: none;
+  background-color: #0d6efd;
+  margin: 1rem 0;
+} 
+
+.txt-light{
+  color: #fff;
+}
+
+.txt-light:hover{
+  color: #fff;
+}
+
+
+.btnn-danger{
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.25rem;
+  border: none;
+  background-color: #dc3545;
+} 
+
+/* Index.html */
+
+.tables {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+a{
+  text-decoration: none;
+  color: #fff;
+}
+
+button{
+  color: #fff;
+}
+
+
+/* AddUser.html */
+
+.container{
+  margin: 3rem auto;
+  width: 80%;
+}
+
+.form-group{
+  display: flex;
+  flex-direction: column;
+}
+.form-control{
+  padding: 0.75rem ;
+  border-radius: 0.25rem;
+  margin: 1rem 0;
+  border: 1px solid #3333;
+}
